@@ -1,0 +1,64 @@
+@media (max-width: 1000px) {
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 8px; }
+  .hero-portrait-frame { right: 7%; opacity: .4; }
+  .intro { grid-template-columns: 1fr 3fr; }
+  .intro-stamp { display: none; }
+  .creative-feature { gap: 5%; }
+}
+@media (max-width: 720px) {
+  :root { --page-gutter: 22px; }
+  .site-nav { height: 70px; }
+  .brand-symbol { font-size: 27px; }
+  .brand-name { font-size: 9px; }
+  .nav-contact { display: none; }
+  .menu-toggle { display: block; padding: 4px; }
+  .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; padding: 25px var(--page-gutter); background: rgba(11,13,18,.97); border-bottom: 1px solid var(--line-dark); flex-direction: column; gap: 22px; }
+  .nav-links.is-open { display: flex; }
+  .nav-links a { font-size: 11px; }
+  .hero { min-height: 780px; height: 100svh; padding-top: 120px; align-items: flex-start; }
+  .hero-content { margin-top: 55px; }
+  .hero-title { font-size: clamp(49px,13vw,82px); }
+  .hero-description { max-width: 340px; font-size: 12px; }
+  .particle-canvas { width: 100%; height: 55%; top: 37%; right: -20%; opacity: .65; }
+  .hero-portrait-frame { right: 7%; bottom: 65px; height: 35%; width: 42%; min-width: 0; opacity: .25; }
+  .hero-orbit { display: none; }
+  .hero-side-note { right: 14px; font-size: 7px; }
+  .hero-bottom { bottom: 20px; font-size: 7px; }
+  .hero-bottom a { font-size: 7px; }
+  .intro, .journey, .real-estate, .creative, .ai-lab, .contact { padding-top: 95px; padding-bottom: 95px; }
+  .intro { min-height: auto; display: block; }
+  .intro-index { margin-bottom: 40px; }
+  .statement { font-size: clamp(34px,9vw,54px); }
+  .body-large { font-size: 13px; }
+  .journey { min-height: auto; }
+  .section-heading h2 { font-size: clamp(38px,10vw,58px); }
+  .journey-track { margin-top: 60px; grid-template-columns: 1fr; gap: 28px; padding-left: 4px; }
+  .track-line { top: 0; bottom: 0; left: 4px; right: auto; width: 1px; height: auto; }
+  .journey-step { padding: 0 0 10px 42px; max-width: none; }
+  .step-number { top: 0; left: 25px; }
+  .step-node { top: 3px; left: 0; }
+  .journey-step h3 { margin-top: 0; }
+  .project-grid { grid-template-columns: 1fr; gap: 18px; margin-top: 45px; }
+  .project-visual { height: 240px; }
+  .project-meta { font-size: 7px; }
+  .creative-feature { grid-template-columns: 1fr; gap: 35px; }
+  .creative-screen { min-height: 270px; }
+  .screen-tag { bottom: 20px; }
+  .lab-layout { grid-template-columns: 1fr; gap: 30px; }
+  .lab-orb { height: 300px; }
+  .ring-a { width: 250px; height: 250px; }
+  .ring-b { width: 320px; height: 320px; }
+  .orb-core { width: 110px; height: 110px; }
+  .capability { grid-template-columns: 25px 24px 1fr 16px; gap: 8px; }
+  .capability p { font-size: 10px; }
+  .lab-footnote { flex-direction: column; gap: 10px; line-height: 1.7; }
+  .contact { min-height: 600px; }
+  .contact h2 { font-size: clamp(43px,12vw,70px); }
+  .contact-bottom { font-size: 7px; }
+  .site-footer { flex-wrap: wrap; font-size: 7px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .particle-canvas { display: none; }
+}

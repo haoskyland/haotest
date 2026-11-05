@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b2634"/><stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#36d9e8" stop-opacity=".35"/><stop offset="1" stop-color="#36d9e8" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <circle cx="530" cy="380" r="360" fill="url(#glow)"/>
+  <path d="M90 100h620M90 900h620" stroke="#c7a56a" stroke-opacity=".5"/>
+  <text x="400" y="470" fill="#f3f0e9" font-family="Arial,sans-serif" font-size="42" text-anchor="middle" letter-spacing="8">YOUR PORTRAIT</text>
+  <text x="400" y="530" fill="#a4a8b1" font-family="Arial,sans-serif" font-size="18" text-anchor="middle" letter-spacing="4">REPLACE THIS IMAGE</text>
+</svg>
